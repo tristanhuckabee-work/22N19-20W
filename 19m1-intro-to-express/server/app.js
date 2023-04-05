@@ -6,4 +6,8 @@ app.get('/status', (req, res) => {
 });
 
 const port = 5000;
+<<<<<<< HEAD
 app.listen(port, () => console.log(`Listening on port ${port}`));
+=======
+app.listen(port, () => console.log(`Server is listening on port ${port}`));
+>>>>>>> main
